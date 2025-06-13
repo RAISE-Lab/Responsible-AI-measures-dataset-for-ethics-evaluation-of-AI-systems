@@ -5,6 +5,8 @@ Meaningful governance of any system requires the system to be assessed and monit
 # Using the Interactive Visualization
 This dataset has a corresponding visualization that can be dynamically interacted with. It can be found as the "Sunburst_Visualization_Link.md" file in this repository.
 
+## Demo Link: https://bit.ly/RAI_Measures_Dataset_demo
+
 To use the visualization:
 
 1. Select a principle, followed by the component of the ML system that you are interested in exploring. Note: Hovering will display three pieces of metadata: the tier you are currently at in the visual, the parent (e.g., the tier prior), and the principle you are currently hovering above.
