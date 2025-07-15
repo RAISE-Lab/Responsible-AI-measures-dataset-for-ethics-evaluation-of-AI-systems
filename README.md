@@ -5,7 +5,7 @@ Meaningful governance of any system requires the system to be assessed and monit
 # Using the Interactive Visualization
 This dataset has a corresponding visualization that can be dynamically interacted with. It can be found as the "Sunburst_Visualization_Link.md" file in this repository.
 
-## Demo Link: https://bit.ly/RAI_Measures_Dataset_demo
+## Demo Link: https://bit.ly/RAI_Measures_Demo
 
 To use the visualization:
 
