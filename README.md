@@ -3,7 +3,7 @@
 Meaningful governance of any system requires the system to be assessed and monitored effectively. In the domain of Artificial Intelligence (AI), global efforts have established a set of ethical principles like fairness, transparency, and privacy upon which AI governance expectations are being built. The computing research community has proposed numerous means of measuring an AI system’s normative qualities along these principles. Current reporting of these measures is principle-specific, limited in scope, or otherwise dispersed across publication platforms, hindering the domain’s ability to critique its practices. To address this, we introduce the Responsible AI Measures Dataset, consolidating 12,067 data points across 791 evaluation measures covering 11 ethical principles. It is extracted from a corpus of computing literature (n=257) published between 2011 and 2023. The dataset includes detailed descriptions of each measure, AI system characteristics, and publication metadata. An accompanying, interactive Sunburst visualization tool supports usability and interpretation. The Responsible AI Measures Dataset enables practitioners to explore existing assessment approaches and critically analyze how the computing domain measures normative concepts.
 
 # Using the Interactive Visualization
-This dataset has a corresponding visualization that can be dynamically interacted with. It can be found as the "Sunburst_Visualization_Link.md" file in this repository.
+This dataset has a corresponding visualization that can be dynamically interacted with. It can be found as the "Sunburst_Visualization_Link.md" file in this repository. Note there are two versions. Version 1.0 was released in May 2025. Version 2.0 was released in August 2025.
 
 ## Demo Link: https://bit.ly/RAI_Measures_Demo
 
@@ -17,7 +17,48 @@ Some measurement processes will include paper-specific references, terms, or for
 
 # Current Version 
 
-Currently, this work is on Version 1.0 of the publicly shared dataset and corresponding visualization. The dataset is in a Microsoft Excel (.xslx) format. Note that it is not recommended to open the file in a .csv format due to the increased likelihood of corrupted characters and file formatting. Please read the below sections for more information on the dataset.
+Currently, this work is on Version 2.0 of the publicly shared dataset and corresponding visualization. The dataset is in a Microsoft Excel (.xslx) format. Note that it is not recommended to open the file in a .csv format due to the increased likelihood of corrupted characters and file formatting. Please read the below sections for more information on the dataset.
+
+## **Version 2.0 (Current Version; August 2025)**
+
+The addition of two columns.
+
+**Target Output (Columns A and B in Blue)**: The resulting measures collected in this dataset.
+  1. Measure
+  2. Measurement Process
+     
+**Entry Points (Columns C and D in Orange)**: The primary features in narrowing down potential measures for an algorithmic system.
+
+  3. Principle
+  4. Part of the ML System
+
+**Connections to Harm (Columns E - H in Pink)**: The sociotechnical harms for which the measure aims to make aware and/or mitigate.
+
+  5. Primary Harm
+  6. Secondary Harm
+  7. Hazards
+  8. Attribute
+
+**Measurement Properties (Columns I - K in Green)**: The standard(s) used in each measure's evaluation.
+
+  9. Criterion Name 
+  10. Criterion Description 
+  11. Type of Assessment
+
+**Algorithmic System Characteristics (Columns L - O in Purple)**: Additional features that a user can consider when narrowing down measures to use.
+
+  12. Application Area
+  13. Purpose of ML System 
+  14. Type of Data
+  15. Algorithm Type
+
+**Publication Metadata (Columns P - R in Yellow)**: Details further documentation into each source that was extracted to collect each feature and measure.
+
+  16. Title
+  17. Publication Year
+  18. DOI Link
+
+## **Version 1.0 (May 2025)**
 
 **Target Output (Columns A and B in Blue)**: The resulting measures collected in this dataset.
   1. Measure
@@ -53,4 +94,4 @@ Currently, this work is on Version 1.0 of the publicly shared dataset and corres
   16. DOI Link
 
 ## Using the Interactive Visualization
-This dataset has a corresponding visualization that can be dynamically interacted with. It can be found as the "Sunburst_Visualization_Link.md" file in this repository.
+This dataset has a corresponding visualization that can be dynamically interacted with. It can be found as the "Version_2_Sunburst_Visualization_Link.md" file in this repository.
