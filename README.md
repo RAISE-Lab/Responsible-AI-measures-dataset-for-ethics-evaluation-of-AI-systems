@@ -1,4 +1,4 @@
-# Responsible Artificial Intelligence (RAI) Measures Dataset + Harms Analysis Paper
+# Responsible Artificial Intelligence (RAI) Measures Dataset 
 
 ## Dataset Work
 
