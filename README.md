@@ -1,4 +1,6 @@
-# Responsible Artificial Intelligence (RAI) Measures Dataset
+# Responsible Artificial Intelligence (RAI) Measures Dataset + Harms Analysis Paper
+
+## Dataset Work
 
 Meaningful governance of any system requires the system to be assessed and monitored effectively. In the domain of Artificial Intelligence (AI), global efforts have established a set of ethical principles like fairness, transparency, and privacy upon which AI governance expectations are being built. The computing research community has proposed numerous means of measuring an AI system’s normative qualities along these principles. Current reporting of these measures is principle-specific, limited in scope, or otherwise dispersed across publication platforms, hindering the domain’s ability to critique its practices. To address this, we introduce the Responsible AI Measures Dataset, consolidating 12,067 data points across 791 evaluation measures covering 11 ethical principles. It is extracted from a corpus of computing literature (n=257) published between 2011 and 2023. The dataset includes detailed descriptions of each measure, AI system characteristics, and publication metadata. An accompanying, interactive Sunburst visualization tool supports usability and interpretation. The Responsible AI Measures Dataset enables practitioners to explore existing assessment approaches and critically analyze how the computing domain measures normative concepts.
 
